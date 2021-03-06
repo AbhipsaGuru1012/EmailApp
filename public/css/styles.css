@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.form{
+    background: white;
+}
+h3{
+    text-align: center;
+}
+.contact{
+    padding-left: 20%;
+}
+input,textarea{
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+button{
+    width: 70%;
+}
