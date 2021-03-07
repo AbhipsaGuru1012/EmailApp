@@ -59,17 +59,6 @@ app.post('/',(req, res, next) => {
     res.redirect("/");
   })
 
-  $.ajax({
-    url: 'https://email-application1012.herokuapp.com/',
-    type: 'POST',
-    headers: {'Accept': 'application/json;'},
-    data: {
-    "subject": "subject",
-    "message": "some body text"
-    },
-    }).done(function (res) {
-      console.log(res); // it shows your email sent message.
-    });
 const PORT=process.env.PORT || 3000;
 app.listen(PORT, ()=>{
     console.log(`App is listening at ${PORT}`);
