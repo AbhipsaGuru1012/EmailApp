@@ -21,6 +21,7 @@ app.get("/", (req, res)=>{
 const transporter = nodemailer.createTransport(smtpTransport({
   service:'gmail',
   auth: {
+    type: 'OAuth2',
     user: process.env.email,
     pass: process.env.pass
   }
