@@ -1,21 +1,33 @@
-h3{
+body{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+    
+}
+
+h2{
     text-align: center;
-    background-color: black;
     color: white;
     margin: 0 auto;
+    text-transform: uppercase;
 }
+
 .contact{
     padding-left: 20%;
+    margin-left:10%
 }
+
 input,textarea{
-    width: 75%;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid black;
+    width: 60%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     text-align: center;
 }
+
+.form-control{
+    width: 60%;
+}
+
 button{
-    width: 75%;
+    width: 50%;
+    margin-left: 5%
 }
