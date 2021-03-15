@@ -38,10 +38,10 @@ transporter.verify(function(error, success) {
 
 app.post('/',(req, res, next) => {
 
-    var email =req.body.email;
-    var name=req.body.name;
-    var message=req.body.message;
-    var mail = {
+    const email =req.body.email;
+    const name=req.body.name;
+    const message=req.body.message;
+    const mail = {
         from:email,
         to:process.env.email,
         subject:'New connection message',
